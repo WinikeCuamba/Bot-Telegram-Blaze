@@ -4,15 +4,17 @@
   "description": "telegram bot ",
   "main": "app.js",
   "scripts": {
-    "test": "run"
+    "start:dev": "nodemon",
+    "build": "npx tsc"
   },
   "repository": {
     "type": "git",
     "url": "Bot-Telegram-Blaze"
   },
-  "author": "winike",
+  "author": "winike cuamba",
   "license": "MIT",
   "dependencies": {
     "node-telegram-bot-api": "^0.61.0"
   }
+  
 }
