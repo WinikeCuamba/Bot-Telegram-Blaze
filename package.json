@@ -1,0 +1,18 @@
+{
+  "name": "bot-telegram-blaze",
+  "version": "1.0.0",
+  "description": "telegram bot ",
+  "main": "app.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Bot-Telegram-Blaze"
+  },
+  "author": "winike",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
