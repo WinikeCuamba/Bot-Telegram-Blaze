@@ -1,4 +1,4 @@
-import puppeteer from "puppeteer";
+import puppeteer from "puppeteer"
 
 export class Blaze { 
     constructor(client)
@@ -8,12 +8,12 @@ export class Blaze {
 
     login(){
         (async () => {
-            const browser = await puppeteer.launch({headless: false})
-            const page = await browser.newPage()
-        const URL = "https://google.com/"
-            await page.goto(URL)
-            await page.screenshot({path: "blaze.png"})
-        })()
+            const browser = await puppeteer.launch();
+            const page = await browser.newPage();
+            const URL = "https://google.com/";
+            await page.goto(URL);
+            await page.screenshot({path: "teste.png"});
+        })();
     }
 
 }

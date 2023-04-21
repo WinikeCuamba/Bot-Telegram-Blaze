@@ -17,6 +17,7 @@
     "blaze-api": "^1.0.3",
     "dotenv": "^16.0.3",
     "node-telegram-bot-api": "^0.61.0",
+    "pupeteer": "^0.0.1",
     "puppeteer": "^19.8.5"
   }
 }
